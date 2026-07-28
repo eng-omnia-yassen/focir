@@ -1,0 +1,323 @@
+@media (max-width: 1300px) {
+   
+    /* nav  responsive section */
+   nav .container .part1{
+        width: 20%;
+    }
+      nav .container .part2{
+      width: initial;
+      }
+   nav .container .part2 .burger{
+       background-color: transparent;
+       border-radius:5px ;
+       border: 1px solid var(--maincolor);
+       width: 50px;
+       height: 40px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       row-gap: 5px;
+    }
+    nav .container .part2 .burger span{
+        width: 50%;
+        height: 2px;
+        background-color: var(--maincolor);
+        display: block;
+        
+    }
+    
+    nav .container .part2  ul{
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translate(-50%,100%);
+        background-color: var(--navcolor);
+        border-radius: 5px;
+        flex-direction: column;
+        
+        width: 80%;
+        height: 0%;
+        row-gap: 15px;
+        transition-duration: 1s;
+        overflow: hidden;
+    }
+    nav .container .part2 .burger:focus+ul{
+        height: 255px;
+        padding: 20px 0px;
+    }
+
+    /* header responsive section */
+    header .content h3 {
+        font-size: 20px;
+    }
+    header .content h1 {
+        font-size: 40px;
+    }
+        header.content p{
+        font-size: 16px;
+     
+    }
+
+    /* about responsive section  */
+    #about  .container .part1{
+        width: 100%;
+    }
+    #about  .container .part1 .frame{
+        margin-bottom: 50px;
+        width: 280px;
+    }
+    #about  .container .part2{
+        width: 100%;
+    }
+    #about  .container .part2 .info .box{
+        width: 100%;
+    }
+   #about  .container .part2 .info .box h5{
+    font-size: 12px;
+    }
+    #about  .container .part2 .info .box p{
+    font-size: 14px;
+    }
+    #about .container .part2 .buttons button {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+
+    /* title responsive */
+    .title h2{
+        font-size: 30px;
+    }
+    .title .spans{
+        width: 50%;
+    }
+    /* services responsive section */
+    #services .container .box{
+    width: 100%;
+    }
+
+    /* Portfolio section */
+
+    #portfolio .container .box{
+        width: 100%;
+    }
+    #portfolio .container .box .item .layout h3{
+        font-size: 16px;
+
+    }
+    #portfolio .container .box .item .layout a{
+            padding: 10px 10px;
+            font-size: 14px;
+    }
+    /* blog section */
+    #blog .container .box{
+    width: 100%;
+    margin-bottom: 20px; 
+}
+#blog .container .box .item{
+    width: 280px;
+}
+
+    /* contact Us section */
+    #contactUs form{
+        width: 300px;
+    }
+    #contactUs form .box:nth-of-type(1),
+    #contactUs form .box:nth-of-type(2)
+    {
+        width: 100%;
+    }
+    #contactUs form button {
+        width: 100%;
+        display: block;
+    }
+    /* footer responsive */
+    footer{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    /* nav  responsive section */
+    nav .container .part1{
+        width: 15%;
+    }
+    /* header responsive section */
+        header .content h3 {
+    font-size: 25px;
+    }
+    header .content h1 {
+    font-size: 50px;}
+    header.content p{
+    font-size: 20px;
+    
+    }
+    /* about responsive section  */
+    #about  .container .part2 .info .box{
+            width: 50%;
+        }
+
+     #about  .container .part2 .info .box p{
+        font-size: 12px;
+        }
+    #about .container .part2 .buttons button {
+        padding: 15px 20px;
+    }
+      /* title responsive */
+    .title h2{
+        font-size: 30px;
+    }
+    .title .spans{
+        width: 40%;
+    }
+    /* services responsive section */
+    #services .container .box{
+    width: 80%;
+    margin: auto;
+    }
+     /* Portfolio section */
+
+    #portfolio .container .box{
+        width: 80%;
+        margin: auto;
+    }
+
+     /* contact Us section */
+    #contactUs form{
+        width: 350px;
+    }
+    
+    /* footer responsive */
+    footer{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+     .container{
+        width: 90%;
+    }
+     /* nav  responsive section */
+    nav .container .part1{
+        width: 10%;
+    }
+    /* header responsive section */
+    header .content h3 {
+    font-size: 30px;
+    }
+    header .content h1 {
+    font-size: 60px;}
+    header.content p{
+    font-size: 20px;
+    
+    }
+    /* title responsive */
+    .title h2{
+        font-size: 35px;
+    }
+    .title .spans{
+        width: 30%;
+    }
+    /* services responsive section */
+    #services .container .box{
+    width: 50%;
+    margin: 0px auto;
+
+    }
+    /* Portfolio section */
+
+    #portfolio .container .box{
+        width: 50%;
+    }
+     /* blog section */
+    #blog .container .box{
+    width: 50%;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    /* nav  responsive section */
+    nav .container .part1{
+        width: 8%;
+    }
+    /* header responsive section */
+    header .content h1 {
+    font-size: 80px;
+    }
+    /* about responsive section  */
+
+    #about  .container .part1{
+        width: 50%;
+    }
+    #about  .container .part2{
+        width: 50%;
+    }
+    /* title responsive */
+    .title h2{
+        font-size: 40px;
+    }
+    .title .spans{
+        width: 20%;
+    }
+    /* services responsive section */
+    #services .container .box{
+    width: 40%;
+    }
+     /* Portfolio section */
+
+    #portfolio .container .box{
+        width: 43%;
+    }
+    /* blog section */
+
+    #blog .container .box .item{
+        width:300px;
+        
+    }
+    
+    /* contact Us section */
+    #contactUs form{
+            width: 600px;
+            
+        }
+        #contactUs form .box:nth-of-type(1),
+        #contactUs form .box:nth-of-type(2)
+        {
+            width: 50%;
+            
+        }
+    }
+    
+    @media (min-width: 992px) and (max-width: 1300px) {
+        /* nav  responsive section */
+        nav .container .part1{
+            width: 5%;
+        }
+        /* about responsive section  */
+        
+        #about  .container .part2 .info .box h5{
+            font-size: 14px;
+        }
+        #about  .container .part2 .info .box p{
+            font-size: 15px;
+        }
+        /* services responsive section */
+        #services .container .box{
+            width: 25%;
+            
+        }
+        /* Portfolio section */
+        
+        #portfolio .container .box{
+            width: 33.33%;
+        }
+        /* blog section */
+        #blog .container .box{
+            width: 33.3%;
+            
+        }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    
+}
