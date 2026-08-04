@@ -34,7 +34,7 @@ h6{
     flex-wrap: wrap;
 }
 section{
-    padding-block: 30px;
+    padding-block: 50px;
 }
 .part1{
     width: 50%;
@@ -58,7 +58,7 @@ section{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .title .spans span{
