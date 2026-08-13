@@ -194,10 +194,10 @@
 }
 
 @media (min-width: 577px) and (max-width: 1300px) {
-     .container{
+    .container{
         width: 90%;
     }
-     /* nav  responsive section */
+    /* nav  responsive section */
     nav .container .part1{
         width: 10%;
     }
@@ -209,7 +209,6 @@
     font-size: 60px;}
     header.content p{
     font-size: 20px;
-    
     }
     /* title responsive */
     .title h2{
@@ -255,16 +254,15 @@
     font-size: 80px;
     }
     /* About responsive section  */
-
     #About  .container .part1{
         width: 50%;
     }
     #About  .container .part2{
         width: 50%;
     }
-     #About  .container .part2 .info .box p{
-            font-size: 13px;
-        }
+    #About  .container .part2 .info .box p{
+        font-size: 13px;
+    }
     /* title responsive */
     .title h2{
         font-size: 40px;
@@ -289,36 +287,36 @@
     }
     /* contact Us section */
     #Contact-Us form{
-            width: 600px;
-            
-        }
-        #Contact-Us form .box:nth-of-type(1),
-        #Contact-Us form .box:nth-of-type(2)
-        {
-            width: 50%;
-            
-        }
+        width: 600px;
+    }
+    #Contact-Us form .box:nth-of-type(1),
+    #Contact-Us form .box:nth-of-type(2)
+    {
+        width: 50%;
+        
+    }
     }
     
 @media (min-width: 992px) and (max-width: 1300px) {
-        /* nav  responsive section */
-        nav .container .part1{
-            width: 5%;
-        }
-        /* About responsive section  */
-        /* Services responsive section */
-        #Services .container .box{
-            width: 25%; 
-        }
-        /* Portfolio section */
-        
-        #Portfolio .container .box{
-            width: 33.33%;
-        }
-        /* Blog section */
-        #Blog .container .box{
-            width: 33.3%;
-        }
+    /* nav  responsive section */
+    nav .container .part1{
+        width: 5%;
+    }
+    
+    /* About responsive section  */
+    /* Services responsive section */
+    #Services .container .box{
+        width: 25%; 
+    }
+    /* Portfolio section */
+
+    #Portfolio .container .box{
+        width: 33.33%;
+    }
+    /* Blog section */
+    #Blog .container .box{
+        width: 33.3%;
+    }
 }
 
 @media (min-width: 1181px) and (max-width: 1300px) {
